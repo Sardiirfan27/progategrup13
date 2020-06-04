@@ -87,3 +87,133 @@
     text-shadow: none;
    
 }
+
+
+/* our project */
+.btn-general-st {
+    background-color: rgb(73, 58, 170);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-general-st:hover {
+    color: white;
+    background-color: rgb(92, 67, 233);
+    transition: 0.3s;
+}
+
+
+
+@media only screen and (max-width: 767px) {}
+ 
+ .card {
+     overflow: hidden;
+     position: relative;
+     width: 100%;
+     margin: 0;
+     transition: 0.3s;
+     min-height: 35 0px;
+ }
+ 
+ .card:hover {
+     -webkit-box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+     box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+     overflow: hidden;
+     position: relative;
+     transition: 0.3s;
+ }
+ 
+ .card img {
+     transition: 0.5s ease 0s;
+ }
+ 
+ .card img:hover {
+     width: 100%;
+     -webkit-transform: scale(1.08);
+     transform: scale(1.08);
+     transition: 0.5s ease 0s;
+     -webkit-box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+     box-shadow: 4px 5px 16px -11px rgba(0, 0, 0, 0.75);
+ }
+ 
+ .card .card-body a {
+     display: block;
+     text-decoration: none;
+ }
+ 
+ .card .card-body a h1 {
+     font-size: 14px;
+     font-weight: 600;
+     text-decoration: none;
+     color: rgba(0, 0, 0, 0.808);
+     transition: 0.3s;
+ }
+ 
+ .card .card-body a h1:hover {
+     font-size: 14px;
+     font-weight: 600;
+     text-decoration: none;
+     color: rgba(107, 12, 144, 0.808);
+ }
+ 
+ .card .card-body .pemateri {
+     font-size: 10px;
+     font-weight: 500;
+ }
+ 
+ .card .card-body p span {
+     font-weight: 400;
+ }
+ 
+ .keterangan1 {
+     background-color: rgba(226, 98, 0, 0.411);
+     color: rgb(138, 61, 2);
+     font-size: 8px;
+     font-weight: 600;
+     padding: 4px 5px 4px 5px;
+ }
+ 
+ .keterangan2 {
+     background-color: rgba(129, 90, 183, 0.411);
+     color: rgb(49, 43, 84);
+     font-size: 8px;
+     font-weight: 600;
+     padding: 4px 5px 4px 5px;
+ }
+ 
+ .keterangan3 {
+     background-color: rgba(115, 239, 123, 0.411);
+     color: #4A6B4C;
+     font-size: 8px;
+     font-weight: 600;
+     padding: 4px 5px 4px 5px;
+ }
+ 
+ 
+ 
+ .details-st {
+     display: block;
+     text-decoration: none;
+     color: #071a52;
+     font-size: medium;
+     text-align: right;
+     font-weight: 600;
+     transition: 0.5s;
+ }
+ 
+ .details-st:hover {
+     display: block;
+     text-decoration: none;
+     color: #071a52;
+     font-size: medium;
+     text-align: right;
+     font-weight: 600;
+     transform: scale(0.97, 1.0);
+     transition: 0.5s;
+ }
+
+
+
+
